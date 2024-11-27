@@ -1,0 +1,10 @@
+[package]
+name = "bevy_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.14.2"
+bevy_animations = {path = "../Bevy_Game/crates/bevy_animations"}
+double_dot_state = {path = "../Bevy_Game/crates/double_dot_state"}
+bevy_rapier2d = {version = "0.27.0"}
